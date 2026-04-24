@@ -5,14 +5,14 @@
       "description": "Un burger gourmet avec un steak de bœuf grillé, du fromage fondant, des champignons sautés, de la laitue croquante et une sauce au poivre.",
       "prix": 12.99,
       "image": "styles/imgs/imgproduits/BurgerGourmand.jpg",
-      "date_debut": "2024-05-01",
-      "date_fin": "2024-05-07",
+      "date_debut": "2026-04-01",
+      "date_fin": "2026-04-30",
       "ingredients": [
         "Pain aux graines de sésame",
         "Steak de bœuf grillé",
         "Fromage fondu",
         "Champignons sautés",
-        "Laitue",
+        "Laitutue",
         "Sauce au poivre"
       ]
     },
@@ -21,8 +21,8 @@
       "description": "Un burger aux saveurs méditerranéennes avec un steak d'agneau grillé, du houmous crémeux, des tomates fraîches, des olives noires et de la roquette.",
       "prix": 11.49,
       "image": "styles/imgs/imgproduits/BurgerMediteraneen.jpg",
-      "date_debut": "2024-05-08",
-      "date_fin": "2024-05-14",
+      "date_debut": "2026-05-01",
+      "date_fin": "2026-05-31",
       "ingredients": [
         "Pain ciabatta",
         "Steak d'agneau grillé",
@@ -37,8 +37,8 @@
       "description": "Un burger épicé avec du poulet croustillant, du guacamole, du piment jalapeño, de la coriandre fraîche et une sauce salsa.",
       "prix": 10.99,
       "image": "styles/imgs/imgproduits/BurgerTexMex.jpg",
-      "date_debut": "2024-05-15",
-      "date_fin": "2024-05-21",
+      "date_debut": "2026-06-01",
+      "date_fin": "2026-06-30",
       "ingredients": [
         "Pain burger aux graines",
         "Poulet croustillant",
@@ -53,8 +53,8 @@
       "description": "Un burger aux saveurs italiennes avec de la mozzarella fondue, des tomates confites, du basilic frais, de l'huile d'olive et de la roquette.",
       "prix": 10.49,
       "image": "styles/imgs/imgproduits/BurgerItalien.jpg",
-      "date_debut": "2024-05-22",
-      "date_fin": "2024-05-28",
+      "date_debut": "2026-07-01",
+      "date_fin": "2026-07-31",
       "ingredients": [
         "Pain focaccia",
         "Mozzarella fondue",
@@ -69,14 +69,14 @@
       "description": "Un burger à la sauce barbecue avec du bacon croustillant, du cheddar fondu, des oignons frits, de la laitue croquante et de la mayonnaise.",
       "prix": 11.99,
       "image": "styles/imgs/imgproduits/BBQSupreme.jpg",
-      "date_debut": "2024-05-29",
-      "date_fin": "2024-06-05",
+      "date_debut": "2026-08-01",
+      "date_fin": "2026-08-31",
       "ingredients": [
         "Pain burger aux graines de pavot",
         "Bacon croustillant",
         "Cheddar fondu",
         "Oignons frits",
-        "Laitue",
+        "Laitutue",
         "Mayonnaise",
         "Sauce barbecue"
       ]
@@ -86,14 +86,14 @@
       "description": "Un burger végétarien épicé avec un steak de haricots noirs, du guacamole, du jalapeño, de la laitue et de la sauce sriracha.",
       "prix": 10.49,
       "image": "styles/imgs/imgproduits/BurgerVegetal.jpg",
-      "date_debut": "2024-06-06",
-      "date_fin": "2024-06-12",
+      "date_debut": "2026-09-01",
+      "date_fin": "2026-09-30",
       "ingredients": [
         "Pain burger complet",
         "Steak de haricots noirs",
         "Guacamole",
         "Piment jalapeño",
-        "Laitue",
+        "Laitutue",
         "Sauce sriracha"
       ]
     },
@@ -102,8 +102,8 @@
       "description": "Un burger au crabe croustillant avec de la salade de chou, de la mayonnaise épicée et des tranches de citron.",
       "prix": 12.99,
       "image": "styles/imgs/imgproduits/BurgerCrabe.jpg",
-      "date_debut": "2024-06-13",
-      "date_fin": "2024-06-19",
+      "date_debut": "2026-10-01",
+      "date_fin": "2026-10-31",
       "ingredients": [
         "Pain burger brioché",
         "Crabe croustillant",
@@ -117,14 +117,14 @@
       "description": "Un burger avec du filet de porc grillé, de la moutarde à l'ancienne, des cornichons, de la laitue et des tomates fraîches.",
       "prix": 10.99,
       "image": "styles/imgs/imgproduits/BurgerPorc.jpg",
-      "date_debut": "2024-06-20",
-      "date_fin": "2024-06-26",
+      "date_debut": "2026-11-01",
+      "date_fin": "2026-11-30",
       "ingredients": [
         "Pain burger aux graines",
         "Filet de porc grillé",
         "Moutarde à l'ancienne",
         "Cornichons",
-        "Laitue",
+        "Laitutue",
         "Tomates fraîches"
       ]
     },
@@ -133,13 +133,13 @@
       "description": "Un burger au poulet teriyaki avec des oignons caramélisés, de la laitue, des tranches d'ananas et de la sauce teriyaki.",
       "prix": 11.49,
       "image": "styles/imgs/imgproduits/BurgerTeriyaki.jpg",
-      "date_debut": "2024-06-27",
-      "date_fin": "2024-07-02",
+      "date_debut": "2026-12-01",
+      "date_fin": "2026-12-31",
       "ingredients": [
         "Pain burger aux graines de sésame",
         "Poulet teriyaki",
         "Oignons caramélisés",
-        "Laitue",
+        "Laitutue",
         "Tranches d'ananas",
         "Sauce teriyaki"
       ]
@@ -149,13 +149,13 @@
       "description": "Un burger avec des champignons sautés, du fromage suisse fondu, de la laitue, des tomates fraîches et de la mayonnaise.",
       "prix": 10.99,
       "image": "styles/imgs/imgproduits/BurgerChampignon.jpg",
-      "date_debut": "2024-07-03",
-      "date_fin": "2024-07-09",
+      "date_debut": "2027-01-01",
+      "date_fin": "2027-01-31",
       "ingredients": [
         "Pain burger brioché",
         "Champignons sautés",
         "Fromage suisse fondu",
-        "Laitue",
+        "Laitutue",
         "Tomates fraîches",
         "Mayonnaise"
       ]
@@ -165,16 +165,31 @@
       "description": "Un burger aux saveurs méditerranéennes avec de la viande d'agneau grillée, du houmous, des tomates fraîches, de la laitue, des oignons rouges et de la sauce tzatziki.",
       "prix": 11.99,
       "image": "styles/imgs/imgproduits/BurgerMediteraneen.jpg",
-      "date_debut": "2024-07-10",
-      "date_fin": "2024-07-16",
+      "date_debut": "2027-02-01",
+      "date_fin": "2027-02-28",
       "ingredients": [
         "Pain burger ciabatta",
         "Viande d'agneau grillée",
         "Houmous",
         "Tomates fraîches",
-        "Laitue",
+        "Laitutue",
         "Oignons rouges",
         "Sauce tzatziki"
+      ]
+    },
+    {
+      "nom": "Burger Crabe Croustillant",
+      "description": "Un burger au crabe croustillant avec de la salade de chou, de la mayonnaise épicée et des tranches de citron.",
+      "prix": 12.99,
+      "image": "styles/imgs/imgproduits/BurgerCrabe.jpg",
+      "date_debut": "2027-03-01",
+      "date_fin": "2027-03-31",
+      "ingredients": [
+        "Pain burger brioché",
+        "Crabe croustillant",
+        "Salade de chou",
+        "Mayonnaise épicée",
+        "Tranches de citron"
       ]
     }
   ]
