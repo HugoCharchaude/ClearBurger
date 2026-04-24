@@ -1,0 +1,624 @@
+/* Styles pour les titres */
+h3, h2, h1 {
+  font-family: Playfair Display;
+}
+
+/* Styles pour le corps du texte */
+body, p, li {
+  font-family: Open Sans;
+}
+
+/* Styles pour les boutons personnalisés */
+.btn-custom {
+  background-color: #161616;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 30px auto;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-size: 120%;
+}
+
+/* Animation au survol des boutons personnalisés */
+.btn-custom:hover {
+  background-color: #383838;
+}
+
+.transition {
+  width: 100%;
+  height: 100px; /* Ajustez la hauteur selon vos besoins */
+  overflow: hidden;
+  background-image: url("../styles/imgs/fond/transition.png"); /* Assurez-vous que le chemin est correct */
+  background-repeat: repeat;
+}
+
+.transition1 {
+  width: 100%;
+  height: 100px; /* Ajustez la hauteur selon vos besoins */
+  overflow: hidden;
+  background-image: url("../styles/imgs/fond/transition1.png"); /* Assurez-vous que le chemin est correct */
+  background-repeat: repeat;
+}
+
+
+/* Styles pour l'en-tête */
+header {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Styles pour la navigation */
+header .navbar-brand {
+  font-size: 1.5rem;
+}
+
+header .navbar-nav .nav-link {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+  color: #fff !important;
+}
+
+header .navbar-nav .nav-link:hover {
+  color: #ddd !important;
+}
+
+/* Styles pour la section "Burger de la semaine" */
+.accueil .bds {
+  background-color: black;
+  color: white;
+}
+
+.accueil .burger-item {
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accueil .burger-info {
+  flex-grow: 1;
+  order: 1;
+  text-align: center;
+}
+
+.accueil .burger-info h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.accueil .burger-info .description {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.accueil .burger-info .ingredients {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.accueil .burger-info .ingredients li {
+  padding: 10px 0;
+}
+
+.accueil .burger-price img {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.accueil .burger-price {
+  text-align: center;
+}
+
+.accueil .burger-price .price {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.accueil .burger-btn-container {
+  text-align: center;
+}
+
+/* Media queries pour les petits écrans */
+@media screen and (max-width: 768px) {
+  .accueil .burger-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .accueil .burger-info,
+  .accueil .burger-price {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .accueil .burger-price img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+}
+
+/* Styles pour la section "Horaire" */
+.custom-hr {
+  height: 2px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.horaires-section {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.horaires-section ul.list-unstyled li {
+  margin-bottom: 15px;
+}
+
+/* Styles pour la section "Images" */
+.images {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.images .card {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.images .card img {
+  width: 300px;
+  height: 200px;
+  transition: transform 0.3s ease; /* Effet de transition au survol */
+}
+
+.images .card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Effet de transition au survol */
+}
+
+.images .card:hover img {
+  transform: scale(1.1); /* Zoom sur l'image au survol */
+}
+
+.images .card:hover .overlay {
+  opacity: 1; /* Affichage de l'overlay au survol */
+}
+
+/* Styles pour la section "Contact" */
+.info-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Styles pour le formulaire de contact */
+.map-container {
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control,
+.form-select,
+.form-textarea {
+  border-radius: 5px;
+}
+
+.form-textarea {
+  resize: none; /* Empêche le redimensionnement de la zone de texte */
+}
+
+/* Styles pour le footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Styles pour la galerie */
+.galerie {
+  background-color: black;
+  color: white;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(30% - 10px), 1fr));
+  gap: 55px;
+  background-color: black;
+  padding: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(calc(50% - 10px), 1fr));
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(calc(100% - 10px), 1fr));
+  }
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Effet de transition au survol */
+}
+
+.image:hover {
+  transform: scale(1.1); /* Zoom sur l'image au survol */
+}
+
+/* Styles pour la section "Mentions Légales" */
+.pagementionslegales .politque_de_confidentialite {
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+
+.propos{
+  .txtprp{
+    font-size: 125%;
+  }
+  
+  .txtchef{
+    text-align: center;
+  }
+  .bloc{
+    padding-bottom: 5%;
+  }
+  h2,h3{
+    text-align: center;
+  }
+
+  .noschefs{
+    padding-bottom: 3%;
+  }
+  
+
+  
+
+
+
+  
+  @keyframes anime {
+    from {
+        top: 28%;
+        
+    }
+    100% {
+        top: 32%;
+        
+    }
+}
+
+
+
+
+.svg {
+  width: 350px;
+  height: 350px;
+  position: initial;
+  margin: auto;
+  
+  top: 28%;
+  left: 67%;
+  background: url(imgs/photos/cuisineprs.jpg) no-repeat ;
+  background-size: cover;
+  mask: url(SVG/forme.svg) no-repeat 100% 100%;
+  -webkit-mask: url(SVG/forme.svg) no-repeat 100% 100%;
+  -o-mask: url(SVG/forme.svg) no-repeat 100% 100%;
+  -moz-mask: url(SVG/forme.svg) no-repeat 100% 100%;
+  animation: anime 3s ease-in-out alternate;
+  animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .chef-circle {
+    overflow: hidden;
+    width: 60%; /* Changer la taille selon votre besoin */
+    height: auto; /* Changer la taille selon votre besoin */
+    border-radius: 50%; /* pour rendre l'image ronde */
+ 
+}
+
+.chef-circle img {
+    max-width: 100%; /* pour remplir complètement le cercle */
+    max-height: 100%; /* pour remplir complètement le cercle */
+    object-fit: cover; /* pour ajuster l'image dans le cercle */
+    border-radius: 50%; /* pour rendre l'image ronde */
+}
+
+.chef-banner{
+  background-color: #000000;
+  color: #fff;
+}
+.centerimg{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.white-line {
+  border: 1px solid white;
+  color: white;
+}
+
+
+.blob {
+
+  box-shadow: 0 0 0 0 ;
+	transform: scale(1);
+	animation: pulse 3s infinite;
+}
+
+//Animation pulse. Grossi, change d'opacité
+@keyframes pulse {
+	0% {
+		transform: scale(0.8);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+	}
+
+	70% {
+		transform: scale(0.9);
+		box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2);
+	}
+
+	100% {
+		transform: scale(0.8);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.2);
+	}
+}
+}
+
+
+.menuu{
+  
+  img{
+    border-radius: 12px; /* Ajoute un radius sur les images */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Ajoute une ombre importante */
+    display: block;
+    margin-bottom: 10px;
+    
+  }
+  
+
+  
+
+.menu-item-hover {
+  transition: transform 0.3s ease-in-out; /* Ajoute une transition fluide de 0.3s au survol */
+}
+
+.menu-item-hover:hover {
+  transform: scale(1.05); /* Fait grossir l'élément de 10% au survol */
+}
+
+// Variables pour les couleurs et les bordures
+@accordion-bg-color: #f8f9fa;
+@accordion-btn-bg: #fff;
+@accordion-btn-hover-bg: #e9ecef;
+@accordion-text-color: #000;
+@accordion-border-color: #dee2e6;
+@accordion-border-radius: 8px;
+@accordion-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+// Styles pour les accordéons
+.accordion-item {
+background-color: @accordion-bg-color;
+margin-bottom: 10px;
+border-radius: @accordion-border-radius;
+box-shadow: @accordion-box-shadow;
+}
+
+.accordion-button {
+color: @accordion-text-color;
+background-color: @accordion-btn-bg;
+border: none;
+
+&:focus {
+  box-shadow: none;
+}
+
+&:hover {
+  background-color: @accordion-btn-hover-bg;
+}
+}
+
+.accordion-body {
+border-top: 1px solid @accordion-border-color;
+}
+
+// Styles pour centrer l'accordéon
+.accordeon {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+
+}
+
+
+
+.PDS {
+  background-color: #f8f9fa;
+}
+
+.sitemap-container {
+  margin: 50px auto;
+  max-width: 800px;
+
+  h1 {
+      margin-bottom: 30px;
+      color: #343a40;
+  }
+
+  .sitemap-section {
+      margin-bottom: 30px;
+
+      h3 {
+          margin-bottom: 20px;
+          color: #343a40;
+      }
+
+      ul {
+          list-style: none;
+          padding: 0;
+
+          li {
+              margin-bottom: 10px;
+
+              a {
+                  text-decoration: none;
+                  color: #007bff;
+
+                  &:hover {
+                      text-decoration: underline;
+                  }
+              }
+          }
+      }
+  }
+}
+
+  

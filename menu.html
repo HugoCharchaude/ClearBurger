@@ -1,0 +1,734 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Métadonnées -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Feuilles de style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet/less" href="styles/style.less">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+</head>
+
+<header class="py-3">
+    <!-- Barre de navigation -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">ClearBurger</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Liens de navigation -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galerie.html">Galerie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="a_propos.html">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+            
+        
+                <div class="transition"></div>
+
+                <body class="menuu">
+
+
+                
+
+<div class="container accordeon accordion accordion-flush" id="accordionFlushExample">
+    <h1 class="fw-bold" style="margin: 2%;">La carte</h1>
+
+  <!--PREMIER ACCORDEON------------------------------------------>
+  
+  
+  <div class="container">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Nos Entrées
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+                <div class="menu container px-4 text-center">
+                    <div class="row-cols-1 row-cols-md-3 row gx-5">
+
+                        <!-- Entrée: Salade de chèvre chaud -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal8">
+                                <img src="styles/imgs/imgproduits/salade_chevre.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Salade de chèvre chaud</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>4.99€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entrée: Soupe du jour avec pain frais -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal9">
+                                <img src="styles/imgs/imgproduits/soupe.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Soupe du jour avec pain frais</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>3.99€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entrée: Calamars frits avec sauce tartare -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal10">
+                                <img src="styles/imgs/imgproduits/calamar_frit.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Calamars frits avec sauce tartare</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>6.99€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entrée: Bruschetta à la tomate et à la mozzarella -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal11">
+                                <img src="styles/imgs/imgproduits/Burshatta.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Bruschetta à la tomate et à la mozzarella</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>5.99€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entrée: Carpaccio de bœuf avec roquette et parmesan -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal12">
+                                <img src="styles/imgs/imgproduits/Carpaccio.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Carpaccio de bœuf avec roquette et parmesan</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>6.99€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!--DEUXIEME ACCORDEON------------------------------------------>
+
+            
+  <div class="container">
+    <div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      Nos Burgers
+    </button>
+  </h2>
+  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+    <div class="accordion-body">
+      
+      <div class="menu container px-4 text-center">
+        <div class="row-cols-1 row-cols-md-3 row gx-5">
+
+          <!-- Burger Gourmand -->
+<div class="col mb-3">
+<div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal3">
+  <img src="styles/imgs/imgproduits/BurgerGourmand.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+  <div class="w-100 d-flex justify-content-between align-items-start"> 
+      <div>
+          <p class="mb-0 text-start"><strong>Burger Gourmand</strong></p>
+      </div>
+      <div>
+          <p class="mb-0 text-end"><strong>12.99€</strong></p>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="menuModal3" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="menuModalLabel">Détails du Burger</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="text-center">
+              <img src="styles/imgs/imgproduits/BurgerGourmand.jpg" alt="Image du Menu" class="img-fluid">
+          </div>
+          <hr class="my-4">
+          <div class="composition-details">
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Pain aux graines de sésame</li>
+                  <li class="list-group-item">Steak de bœuf grillé</li>
+                  <li class="list-group-item">Fromage fondu</li>
+                  <li class="list-group-item">Champignons sautés</li>
+                  <li class="list-group-item">Laitue</li>
+                  <li class="list-group-item">Sauce au poivre</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Burger Tex-Mex -->
+<div class="col mb-3">
+<div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal4">
+  <img src="styles/imgs/imgproduits/BurgerTexMex.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+  <div class="w-100 d-flex justify-content-between align-items-start"> 
+      <div>
+          <p class="mb-0 text-start"><strong>Burger Tex-Mex</strong></p>
+      </div>
+      <div>
+          <p class="mb-0 text-end"><strong>10.99€</strong></p>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="menuModal4" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="menuModalLabel">Détails du Burger</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="text-center">
+              <img src="styles/imgs/imgproduits/BurgerTexMex.jpg" alt="Image du Menu" class="img-fluid">
+          </div>
+          <hr class="my-4">
+          <div class="composition-details">
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Pain burger aux graines</li>
+                  <li class="list-group-item">Poulet croustillant</li>
+                  <li class="list-group-item">Guacamole</li>
+                  <li class="list-group-item">Piment jalapeño</li>
+                  <li class="list-group-item">Coriandre fraîche</li>
+                  <li class="list-group-item">Sauce salsa</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Burger BBQ Supreme -->
+<div class="col mb-3">
+<div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal5">
+  <img src="styles/imgs/imgproduits/BBQSupreme.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+  <div class="w-100 d-flex justify-content-between align-items-start"> 
+      <div>
+          <p class="mb-0 text-start"><strong>Burger BBQ Supreme</strong></p>
+      </div>
+      <div>
+          <p class="mb-0 text-end"><strong>11.99€</strong></p>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="menuModal5" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="menuModalLabel">Détails du Burger</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="text-center">
+              <img src="styles/imgs/imgproduits/BBQSupreme.jpg" alt="Image du Menu" class="img-fluid">
+          </div>
+          <hr class="my-4">
+          <div class="composition-details">
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Pain burger aux graines de pavot</li>
+                  <li class="list-group-item">Bacon croustillant</li>
+                  <li class="list-group-item">Cheddar fondu</li>
+                  <li class="list-group-item">Oignons frits</li>
+                  <li class="list-group-item">Laitue</li>
+                  <li class="list-group-item">Mayonnaise</li>
+                  <li class="list-group-item">Sauce barbecue</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Burger Végétarien Épicé -->
+<div class="col mb-3">
+<div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal6">
+  <img src="styles/imgs/imgproduits/BurgerVegetal.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+  <div class="w-100 d-flex justify-content-between align-items-start"> 
+      <div>
+          <p class="mb-0 text-start"><strong>Burger Végétarien Épicé</strong></p>
+      </div>
+      <div>
+          <p class="mb-0 text-end"><strong>10.49€</strong></p>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="menuModal6" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="menuModalLabel">Détails du Burger</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="text-center">
+              <img src="styles/imgs/imgproduits/BurgerVegetal.jpg" alt="Image du Menu" class="img-fluid">
+          </div>
+          <hr class="my-4">
+          <div class="composition-details">
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Pain burger complet</li>
+                  <li class="list-group-item">Steak de haricots noirs</li>
+                  <li class="list-group-item">Guacamole</li>
+                  <li class="list-group-item">Piment jalapeño</li>
+                  <li class="list-group-item">Laitue</li>
+                  <li class="list-group-item">Sauce sriracha</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Burger Teriyaki -->
+<div class="col mb-3">
+<div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal7">
+  <img src="styles/imgs/imgproduits/BurgerTeriyaki.jpg" alt="" class="img-fluid " style="max-width: 50%;">
+  <div class="w-100 d-flex justify-content-between align-items-start"> 
+      <div>
+          <p class="mb-0 text-start"><strong>Burger Teriyaki</strong></p>
+      </div>
+      <div>
+          <p class="mb-0 text-end"><strong>11.49€</strong></p>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="menuModal7" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+  <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="menuModalLabel">Détails du Burger</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="text-center">
+              <img src="styles/imgs/imgproduits/BurgerTeriyaki.jpg" alt="Image du Menu" class="img-fluid">
+          </div>
+          <hr class="my-4">
+          <div class="composition-details">
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Pain burger aux graines de sésame</li>
+                  <li class="list-group-item">Poulet teriyaki</li>
+                  <li class="list-group-item">Oignons caramélisés</li>
+                  <li class="list-group-item">Laitue</li>
+                  <li class="list-group-item">Tranches d'ananas</li>
+                  <li class="list-group-item">Sauce teriyaki</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            
+  <!--TROISIEME ACCORDEON------------------------------------------>
+  
+  <div class="container">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Nos Accompagnements
+            </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+                <div class="menu container px-4 text-center">
+                    <div class="row-cols-1 row-cols-md-3 row gx-5">
+
+                        <!-- Accompagnement: Frites maison -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal13">
+                                <img src="styles/imgs/imgproduits/Frite.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Frites maison</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>4.00€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accompagnement: Onion rings croustillants -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal14">
+                                <img src="styles/imgs/imgproduits/onion_ring.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Onion rings croustillants</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>5.00€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accompagnement: Salade verte fraîche -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal15">
+                                <img src="styles/imgs/imgproduits/salade_verte.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Salade verte fraîche</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>3.50€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accompagnement: Légumes grillés -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal16">
+                                <img src="styles/imgs/imgproduits/Legumes_grilles.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Légumes grillés</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>5.50€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accompagnement: Pommes de terre rôties à l'ail et au romarin -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal17">
+                                <img src="styles/imgs/imgproduits/patate_grille.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Pommes de terre rôties à l'ail et au romarin</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>6.00€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+    <!--QUATRIEME ACCORDEON------------------------------------------>
+
+    <div class="container">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Nos Desserts
+                </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+    
+                    <div class="menu container px-4 text-center">
+                        <div class="row-cols-1 row-cols-md-3 row gx-5">
+    
+                            <!-- Dessert: Cheesecake New-Yorkais -->
+                            <div class="col mb-3">
+                                <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal18">
+                                    <img src="styles/imgs/imgproduits/Cheescake.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                    <div class="w-100 d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <p class="mb-0 text-start"><strong>Cheesecake New-Yorkais</strong></p>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-end"><strong>6.50€</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Dessert: Fondant au chocolat maison -->
+                            <div class="col mb-3">
+                                <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal19">
+                                    <img src="styles/imgs/imgproduits/Coulant_chocolat.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                    <div class="w-100 d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <p class="mb-0 text-start"><strong>Fondant au chocolat maison</strong></p>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-end"><strong>7.00€</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Dessert: Tiramisu traditionnel -->
+                            <div class="col mb-3">
+                                <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal20">
+                                    <img src="styles/imgs/imgproduits/Tiramisu.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                    <div class="w-100 d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <p class="mb-0 text-start"><strong>Tiramisu traditionnel</strong></p>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-end"><strong>6.00€</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Dessert: Milkshake vanille ou chocolat -->
+                            <div class="col mb-3">
+                                <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal21">
+                                    <img src="styles/imgs/imgproduits/Milkshake.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                    <div class="w-100 d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <p class="mb-0 text-start"><strong>Milkshake vanille ou chocolat</strong></p>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-end"><strong>4.00€</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Dessert: Île flottante à la vanille -->
+                            <div class="col mb-3">
+                                <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal22">
+                                    <img src="styles/imgs/imgproduits/Ile_flottante.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                    <div class="w-100 d-flex justify-content-between align-items-start">
+                                        <div>
+                                            <p class="mb-0 text-start"><strong>Île flottante à la vanille</strong></p>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-end"><strong>5.00€</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!--CINQUIEME ACCORDEON------------------------------------------>
+
+  <div class="container">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Nos Boissons
+            </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+
+                <div class="menu container px-4 text-center">
+                    <div class="row-cols-1 row-cols-md-3 row gx-5">
+
+                        <!-- Boisson: Soda au choix -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal23">
+                                <img src="styles/imgs/imgproduits/Soda.png" alt="" class="img-fluid" style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Soda au choix (Coca-Cola, Sprite, Fanta)</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>2.50€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Boisson: Jus d'orange frais pressé -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal24">
+                                <img src="styles/imgs/imgproduits/Jus-dorange.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Jus d'orange frais pressé</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>3.00€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Boisson: Limonade maison -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal25">
+                                <img src="styles/imgs/imgproduits/limonade.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Limonade maison</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>3.00€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Boisson: Eau minérale gazeuse -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal26">
+                                <img src="styles/imgs/imgproduits/eau_gazeuse.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Eau minérale gazeuse</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>2.00€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Boisson: Thé glacé maison -->
+                        <div class="col mb-3">
+                            <div class="p-3 rounded-3 shadow d-flex flex-column justify-content-between align-items-center menu-item-hover" data-bs-toggle="modal" data-bs-target="#menuModal27">
+                                <img src="styles/imgs/imgproduits/the_glacer.png" alt="" class="img-fluid " style="max-width: 50%;">
+                                <div class="w-100 d-flex justify-content-between align-items-start">
+                                    <div>
+                                        <p class="mb-0 text-start"><strong>Thé glacé maison</strong></p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-end"><strong>3.50€</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    
+      
+        
+</body>
+  <div class="transition1">
+</div>
+
+
+<footer>
+    <!-- Pied de page -->
+    <div class="container footer-container">
+        <div class="footer-section">
+            <h4>Liens Utiles</h4>
+            <ul>
+                <!-- Liens utiles -->
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="galerie.html">La Galerie</a></li>
+                <li><a href="a_propos.html">À propos</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Informations</h4>
+            <ul>
+                <!-- Informations complémentaires -->
+                <li><a href="politique_de_confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentionslegales.html">Mentions légales</a></li>
+                <li><a href="plandusite.html">Plan du site</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Contactez-nous</h4>
+            <ul>
+                <!-- Coordonnées de contact -->
+                <li>Email: contact@clearburger.com</li>
+                <li>Téléphone: 07 81 64 81 33</li>
+                <li>Adresse: 36 Bd de la Bastille, 75012 Paris</li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <!-- Droits d'auteur -->
+        <p>© 2024 ClearBurger - Tous droits réservés.</p>
+    </div>
+</footer>
+</html>
